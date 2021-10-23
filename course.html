@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <--<![endif]-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>University website design</title> 
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1c1efd7ed0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html">
+                    <img src="images/logo.png">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="course.html">COURSE</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+        <!--courses-->
+        <section class="course">
+            <h1>Courses we provide</h1>
+            <p>little text re here</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>hello are you there or not</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>hello are you there or not</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post-graduation</h3>
+                    <p>hello are you there or not</p>
+                </div>
+            </div>
+
+        </section>
+        <!--facilities-->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>we provide  large number of services across all over the World</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png" alt="">
+                    <h3>World Class library</h3>
+                    <p>we have best library around the World</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png" alt="">
+                    <h3>Largest Play Ground </h3>
+                    <p>we have best ground space around the World</p>
+                </div>  <div class="facilities-col">
+                    <img src="images/cafeteria.png" alt="">
+                    <h3>Tasty And Healthy Food And Beavarges</h3>
+                    <p>we have best cafeteria with good staff around the World</p>
+                </div>
+            </div>
+
+        </section>
+         <!--footer-->
+         <section class="footer">
+            <h4>ABOUT US</h4>
+            <p>The About Us page of your site is the page where you get to talk about yourself and present how awesome of a person you are.<br> It’s the place that gives you the opportunity to talk about what you do and why it matters.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <p>MADE WITH<i class="fa fa-heart"></i> BY ANKIT A.RAJ</p>
+            </div>
+        </section>
+        <!--javascript for toggle menu-->
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }   
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <--<![endif]-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>University website design</title> 
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1c1efd7ed0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html">
+                    <img src="images/logo.png">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="course.html">COURSE</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our certificate & online program for 2021</h1>
+        </section>
+        <!--blog page content-->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg" alt="">
+                    <h2>Our certificate & online program for 2021</h2>
+                    <p>WHY?  Purpose or rationale for the course/subject area covered (1st sentence)
+                        WHAT?  Key content/principles/topics to be learned (2nd sentence and/or 3rd sentence)
+                        HOW?  Types of major learning activities and student experiences in the course (last sentence) (case study, mock interviews, role-playing, group discussions, etc.)</p>
+                        <br>
+                        <p>Volunteerism not only benefits a community, it can broaden the worldview of the volunteer. Students who give their time and energy to a particular cause, gain an opportunity to reflect on the value of the volunteer in contemporary society. Through research and discussion, students consider different types of volunteer settings, trace the history of volunteer organizations, examine the various roles volunteers play within society, and reflect on ethical issues.</p>
+                        <br>
+                        <p>Toys and games, key components of play, have evolved from homemade trinkets to highly engineered items in a multi-billion-dollar industry. Students explore the connections between technology and play, specifically the benefits, drawbacks and ethical implications of toy and game design. Case studies allow students to consider familial, cultural, sociological, and other influences upon toy and game design over the last century. Through discussion, analysis and workshops, students move towards designing their own toy or game, or modifying an existing one.</p>
+
+                        </div>
+                    </div>
+                <div class="blog-right">
+                    <h3>post categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machine learning</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>AutoCad</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>30</span>
+                    </div>
+                    <form class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter E-mail">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit"Class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <!--footer-->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>The About Us page of your site is the page where you get to talk about yourself and present how awesome of a person you are.<br> It’s the place that gives you the opportunity to talk about what you do and why it matters.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>MADE WITH<i class="fa fa-heart"></i> BY ANKIT A.RAJ</p>
+    </div>
+</section>
+<!--javascript for toggle menu-->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }   
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
